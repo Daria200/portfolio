@@ -75,7 +75,13 @@ ul {
   width: 1200px;
   margin: 0 auto;
 }
-
+.greeting-wrapper {
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  border: 2px dashed lightcoral;
+  min-height: 10em;
+}
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
