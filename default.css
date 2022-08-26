@@ -53,13 +53,13 @@ h3 {
   font-size: 28px;
 }
 h4 {
-  font-size: 24;
+  font-size: 24px;
 }
 h5 {
-  font-size: 20;
+  font-size: 20px;
 }
 h6 {
-  font-size: 16;
+  font-size: 16px;
 }
 
 ul {
@@ -213,6 +213,26 @@ ul {
   padding-left: 30px;
   padding-top: 30px;
 }
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding: 50px 0;
+  gap: 100px;
+}
+#skills {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--previewShadow);
+}
+.social-links {
+  align-content: center;
+  text-align: center;
+}
+#social-img {
+  width: 80%;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
