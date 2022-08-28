@@ -1,0 +1,14 @@
+:root {
+  --mainText: black;
+  --secondaryText: #4b5156;
+  --borderColor: #c1c1c1;
+  --mainColor: #f2cac8;
+  --secondaryColor: #fcf2f1;
+  --themeDotBorder: white;
+  --previewBackground: #fbeded;
+  --previewShadow: #e8a09d;
+  --submitButtonColor: #d2443e;
+  --shadowColor: #f7e5dd;
+  --hrColor: lightblue;
+  --linkColor: #8d2521;
+}
