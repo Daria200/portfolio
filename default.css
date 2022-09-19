@@ -244,12 +244,16 @@ ul {
   width: 80%;
 }
 .post-wrapper {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, 320px);
   gap: 20px;
   justify-content: center;
   padding-bottom: 50px;
+  flex-wrap: nowrap;
 }
+
 .thumbnail {
   display: block;
   width: 100%;
@@ -262,12 +266,19 @@ ul {
   object-fit: cover;
   padding: 20px;
 }
+.picture-to-do {
+  display: block;
+  max-width: 550px;
+  object-fit: cover;
+  padding: 20px;
+}
 .post {
   border: 1px solid var(--borderColor);
   -webkit-box-shadow: 7px 3px 5px -6px rgba(0, 0, 0, 0.68);
   -moz-box-shadow: 7px 3px 5px -6px rgba(0, 0, 0, 0.68);
   box-shadow: 7px 3px 5px -6px rgba(0, 0, 0, 0.68);
   margin: 5px;
+  width: 320px;
 }
 .post-preview {
   background-color: white;
